@@ -68,31 +68,31 @@ class AddContact extends Component {
               <div className="card-body">
                 <form onSubmit={this.onSubmit.bind(this, dispatch)}>
                   <TextInputGroup
-                    label= "Name"
+                    label="Name"
                     name="name"
                     placeholder="Name"
                     value={name}
-                    onChange= {this.onChange}
-                    error= {errors.name}
+                    onChange={this.onChange}
+                    error={errors.name}
                   />
 
                   <TextInputGroup
-                    label= "Email"
+                    label="Email"
                     type="email"
                     name="email"
                     placeholder="Email"
                     value={email}
-                    onChange= {this.onChange}
-                    error= {errors.email}
+                    onChange={this.onChange}
+                    error={errors.email}
                   />
 
                   <TextInputGroup
-                    label= "Phone"
+                    label="Phone"
                     name="phone"
                     placeholder="Phone"
                     value={phone}
-                    onChange= {this.onChange}
-                    error= {errors.phone}
+                    onChange={this.onChange}
+                    error={errors.phone}
                   />
                   <input type="submit" value="Add Contact" className="btn btn-light btn-block" />
                 </form>
