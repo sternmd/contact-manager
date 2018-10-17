@@ -31,7 +31,7 @@ class Contact extends Component {
           const { dispatch } = value;
           return (
             <div className="card card-body mb-3">
-              <h4>{name}
+              <h4>{name} &nbsp;
                 <i onClick={this.onShowClick} className="fas fa-sort-down"></i>
                 <i onClick={this.onDeleteClick.bind(this, id, dispatch)}
                 className="fas fa-times"></i>
